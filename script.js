@@ -116,7 +116,7 @@ $(function() {
         });
     });
     $(window).scroll(function (){
-        $('.white-nine,.fadein-ten').each(function(){
+        $('.fadein-nine,.fadein-ten').each(function(){
             var targetElement = $(this).offset().top;
             var scroll = $(window).scrollTop();
             var windowHeight = $(window).height();
