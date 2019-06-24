@@ -285,7 +285,7 @@ header img{
   transition: all 1.0s;
 }
 .photo-sm{
-  display: none
+  display: none!important;
 }
 /*------------------------------------------------------*/
 @media(max-width:768px){
