@@ -285,6 +285,9 @@ header img{
   transition: all 1.0s;
 }
 .photo-sm{
+  display: none;
+}
+.tour-sm{
   display: none!important;
 }
 /*------------------------------------------------------*/
