@@ -60,6 +60,11 @@ $(function() {
       },600);
     };
     $(window).resize(function(){
+      var currentWidth = window.innerWidth; 
+      if (currentWidth == window.innerWidth) {
+        return;
+      }
+  
       if($(window).width() > 768){
         $('.tour').delay(1600).css('width','0').animate({
           'width':'150px'
