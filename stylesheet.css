@@ -301,7 +301,7 @@ header img{
 }
   .name{
     background-size: cover;
-    display: none;
+    display: ;
     float: right;
     height: 40px;
     position: absolute;
